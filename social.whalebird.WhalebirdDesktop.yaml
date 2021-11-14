@@ -1,10 +1,10 @@
 app-id: social.whalebird.WhalebirdDesktop
 base: org.electronjs.Electron2.BaseApp
 base-version: '21.08'
-runtime: org.gnome.Platform
-runtime-version: '41'
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
 command: start-whalebird.sh
-sdk: org.gnome.Sdk
+sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
 separate-locales: false
